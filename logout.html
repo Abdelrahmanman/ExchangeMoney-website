@@ -1,0 +1,10 @@
+<?php
+/*
+  == This page will logout by destroing and deleteing the session _**
+*/
+  session_start();
+  session_unset();
+  session_destroy();
+ // Redirect To the main page!
+  header('Location: index.php');
+?>

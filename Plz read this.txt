@@ -1,0 +1,9 @@
+After greeting, 
+To run this application you should’ve a localhost like [ xampp ]
+Also the database name have to be exchangeoffice,
+
+As you know I’ve running this app in my local machine [localhost] So I’m not responsible for any error’s appears to you when you run it!
+
+Best regards
+Abdelrahman
+

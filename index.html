@@ -1,0 +1,319 @@
+<doctype html></doctype>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Money exchange office</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+      <!-- start the back to top btn -->
+      <i class="fa fa fa-angle-up top"></i>
+      <!-- End the back to top btn -->
+  <!--___________________________________________________________________________________________-->
+      <!-- Start the top bar -->
+      <div class="topbar" id="toppage">
+          <div class="col-xs-6"></div>
+          <div class="col-xs-6">
+            <div class="links pull-right">
+                  <a href="#">Welcome #user</a>
+                  <a href="profile.html">  |  Visit Profile</a>
+                  <a href="logout.html">  |  Logout</a>
+                  <a class='hidden-xs' href="login.html">Login <span> | </span> Signup</a>
+                  <a class='visible-xs' href="login.html">Login</a>
+            </div>
+          </div>
+        <br>
+        <div class="logo text-center">
+          <a href="index.html"><i class="fa fa-dollar"></i></a>
+        </div>
+      </div>
+      <!-- End the top bar -->
+<!--___________________________________________________________________________________________-->
+<!-- start navbar-->
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html" data-value='toppage'>Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="#" data-value='Currencies'>Currencies</a></li>
+                <li><a href="#" data-value='employer'>Staff</a></li>
+                <li><a href="#" data-value='question'>Ask!</a></li>
+                <li><a href="#" data-value='Feedback'>Feedback</a></li>
+                <li><a href="#" data-value='About'>About</a></li>
+                <li><a href="#" data-value='contact'>Contact</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+<!-- End navbar -->
+<!--___________________________________________________________________________________________-->
+  <!-- office -->
+    <div class="theoffice text-center">
+      <h3><span class="scale">Money</span> <span>exchange</span> <span class="scale">office</span></h3>
+      <p>
+        <mark>
+        We provides The easiest way specially for you To exchange you money!<br>
+        </mark>
+      </p>
+      <p>
+        <mark>
+        By visiting our office or using the office website directly from your home.
+        </mark>
+      </p>
+      <i class="fa fa fa-angle-down" data-value='service'></i>
+    </div>
+  <!-- office -->
+<!--___________________________________________________________________________________________-->
+
+    <div class="service" id="service">
+      <div class="container">
+        <h3>Our service & the scope of the work :</h3>
+        <p>Our office represent many great servcie for the clients, By saving the security and ensure the high price for your currency! </p>
+
+        <div class="row  text-center">
+          <div class="col-md-3 col-sm-4 col-xs-12 serimg"><img src="images/1482189721_dollar-bills.png" alt="">Exchange Money</div>
+          <div class="col-md-3 col-sm-4 col-xs-12 serimg"><img src="images/1482189727_advantage_sale.png" alt="">High Price</div>
+          <div class="col-md-3 col-sm-4 col-xs-12 serimg"><img src="images/security.png" alt="">Security</div>
+          <div class="col-md-3 col-sm-4 col-xs-12 serimg"><img src="images/1482259414_location-pointer.png" alt="">Good location</div>
+          <div class="col-md-3 col-sm-4 col-xs-12 serimg"><img src="images/1482260148_resolutions-16.png" alt="">All Currencies</div>
+          <div class="col-md-3 col-sm-4 col-xs-12 serimg"><img src="images/1482190566_page_security.png" alt="">secure website</div>
+          <div class="col-md-3 col-sm-4 col-xs-12 serimg"><img src="images/1482259931_Windows_Easy_Transfer.png" alt="">Easy to Use!</div>
+          <div class="col-md-3 col-sm-4 col-xs-12 serimg"><img src="images/1482260153_clock.png" alt="">Save time!</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--___________________________________________________________________________________________-->
+
+      <div class="service currency" id="Currencies">
+        <div class="container">
+          <h3>Available Currencies!</h3>
+          <p>Our office represents all currencies with high price!</p>
+          <form class="" action="backend/currency.html" method="post">
+            <select class="cur1" name="cur1">
+              <option value="0">Select Currency From</option>
+              <option value="50">Dollar</option>
+              <option value="50">Eg</option>
+              <option value="50">Dinar</option>
+              <option value="50">Rieal</option>
+              <option value="50">Derham</option>
+              <option value="50">Euro</option>
+              <option value="50">Yin</option>
+            </select>
+            <select class="cur2" name="cur2">
+              <option value="0">Select Currency To</option>
+              <option value="1">Dollar</option>
+              <option value="1">Eg</option>
+              <option value="1">Dinar</option>
+              <option value="1">Derham</option>
+              <option value="1">Euro</option>
+            </select>
+            <input class='quantity' type="text" name="quantity" value="" placeholder="Enter Quantity!">
+            <input type="submit" name="" value="Exchange Now!" class="btn btn btn-danger">
+          </form>
+        </div>
+      </div>
+
+  <!--___________________________________________________________________________________________-->
+  <!--___________________________________________________________________________________________-->
+
+    <div class="employer" id="employer">
+      <h3 class="staff">OUR <span>STAFF</span></h3>
+      <div class="row">
+        <!--___________________________________________________________________________________________-->
+        <div class="col-md-3 col-sm-4 content">
+          <div class="col-md-4">
+            <img src="images/emp1.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <h3>AbdElRahman</h3>
+            <p>He is the Manger ..</p>
+          </div>
+        </div>
+        <!--___________________________________________________________________________________________-->
+        <!--___________________________________________________________________________________________-->
+        <div class="col-md-3 col-sm-4 content">
+          <div class="col-md-4">
+            <img src="images/emp7.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <h3>Mohamed </h3>
+            <p>He is the Developer ..</p>
+          </div>
+        </div>
+        <!--___________________________________________________________________________________________-->
+        <!--___________________________________________________________________________________________-->
+        <div class="col-md-3 col-sm-4 content">
+          <div class="col-md-4">
+            <img src="images/emp2.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <h3>Rose</h3>
+            <p>She is the Commissary ..</p>
+          </div>
+        </div>
+        <!--___________________________________________________________________________________________-->
+        <!--___________________________________________________________________________________________-->
+        <div class="col-md-3 col-sm-4 content">
+            <div class="col-md-4">
+              <img src="images/emp3.png" alt="">
+            </div>
+            <div class="col-md-8">
+              <h3>Flavia</h3>
+              <p>She is the assistant ..</p>
+            </div>
+        </div>
+        <!--___________________________________________________________________________________________-->
+        <!--___________________________________________________________________________________________-->
+        <div class="col-md-3 col-sm-4 content">
+          <div class="col-md-4">
+            <img src="images/emp4.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <h3>Sara</h3>
+            <p>She is the Commissary ..</p>
+          </div>
+        </div>
+        <!--___________________________________________________________________________________________-->
+        <!--___________________________________________________________________________________________-->
+        <div class="col-md-3 col-sm-4 content">
+          <div class="col-md-4">
+            <img src="images/emp5.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <h3>Ashraf</h3>
+            <p>He is the office Boy ..</p>
+          </div>
+        </div>
+        <!--___________________________________________________________________________________________-->
+        <!--___________________________________________________________________________________________-->
+        <div class="col-md-3 col-sm-4 content">
+          <div class="col-md-4">
+            <img src="images/emp8.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <h3>Amira</h3>
+            <p>She is the Commissary ..</p>
+          </div>
+        </div>
+        <!--___________________________________________________________________________________________-->
+        <!--___________________________________________________________________________________________-->
+        <div class="col-md-3 col-sm-4 content">
+          <div class="col-md-4">
+            <img src="images/emp6.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <h3>Shimaa</h3>
+            <p>She is the Designer ..</p>
+          </div>
+        </div>
+        <!--___________________________________________________________________________________________-->
+      </div>
+
+    </div>
+
+    <!--___________________________________________________________________________________________-->
+
+
+<!--___________________________________________________________________________________________-->
+    <div class="question" id="question">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Do you have a question?</h3>
+            <p>
+              Please don't histate to let us know, we will replay in less than one hour.<br>
+              we will be here 24/7!
+            </p>
+          </div>
+          <div class="col-md-6">
+            <button class='btn btn btn-danger' type="button" name="button">Ask!</button>
+
+            <form class="ask" action="backend/ask.html" method="post">
+              <input type="text" name="question" value="" placeholder="What is you question?">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--___________________________________________________________________________________________-->
+
+    <div class="feedback" id="Feedback">
+      <div class="container">
+        <h3>Our client's <span>Feedback</span></h3>
+            <div class="feed">
+              <h4>User_name</h4>
+              <p>This is a feedback!</p>
+              <p class="pull-right">22/3/2016</p>
+            </div>
+            <div class="feed">
+              <h4>User_name</h4>
+              <p>This is a feedback!</p>
+              <p class="pull-right">22/3/2016</p>
+            </div>
+          <div class="feed">
+            <h4>User_name</h4>
+            <p>This is a feedback!</p>
+            <p class="pull-right">22/3/2016</p>
+          </div>
+        <div class="addfeedback container">
+          <form class="" action="backend/comments.html" method="post">
+            <input type="hidden" name="userid" value="" placeholder="Please write your feedback">
+            <input type="text" name="comment" value="" placeholder="Please write your feedback">
+          </form>
+        </div>
+
+      </div>
+    </div>
+<!--___________________________________________________________________________________________-->
+
+    <div class="contact" id="contact">
+      <div class="container">
+        <h3 class="contacththree">Contact <span>Us </span>..</h3>
+        <span class="span">Email : Abdelrahman.man@hotsmail.com</span>
+        <span class="span">Phone : +201028177507 </span>
+        <span class="span">Address : ...</span>
+      </div>
+    </div>
+<!--___________________________________________________________________________________________-->
+
+
+    <footer>
+      <div class="container">
+        <div id="smediatop" class="smedia text-center wow rollIn">
+          <a href="https://www.facebook.com/anaasln.wadbrens.50"><img src="images/1454451150_facebook_social_media_online.png"/></a>
+          <a href="#"><img src="images/1454451166_twitter_social_media_online.png"/></a>
+          <a href="#"><img src="images/1454451208_linked_in_social_media_online.png"/></a>
+        </div>
+        <div class="col-md-6">
+          <span>&copy; || Reversed ® 2017 </span>
+        </div>
+        <div class="col-md-6">
+          <span class="pull-right">Developer : Abdelrahman mohamed</span>
+        </div>
+      </div>
+    </footer>
+
+    </body>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/coustom.js"></script>
+</html>
